@@ -1,0 +1,26 @@
+﻿  <local:MyCard Title="快速启动三千世界客户端">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap"
+                 Text="欢迎来到三千世界，玩家交流群：326912740"/>
+        <TextBlock TextWrapping="Wrap"
+                 Text="请点击您想要启动游戏的方式"/>
+        <local:MyButton Margin="0,2,0,2" Width="250" Height="35"
+                 Text="电信网络入口" EventType="启动游戏" EventData="三千世界v3.3|dx.mc3kworld.com:31401" />
+        <local:MyButton Margin="0,2,0,2" Width="250" Height="35"
+                 Text="移动网络入口" EventType="启动游戏" EventData="三千世界v3.3|yd.mc3kworld.com:31401" />
+        <local:MyButton Margin="0,2,0,2" Width="250" Height="35"
+                 Text="联通网络入口" EventType="启动游戏" EventData="三千世界v3.3|lt.mc3kworld.com:31401" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="公告">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+                   Text="三千世界v3.3客户端已更新，更新了服务器节点列表，同时修复了皮肤不显示的问题。" />
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="三千世界的发展离不开您的大力支持，在此向每一位玩家表示感谢！" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="玩得开心！" />
+    </StackPanel>
+</local:MyCard>
+ 
