@@ -16,7 +16,7 @@
 <local:MyCard Title="公告">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
-                   Text="三千世界v3.3客户端已更新，更新了服务器节点列表，同时修复了皮肤不显示的问题。" />
+                   Text="三千世界v3.4客户端已更新，更新了服务器节点列表，同时修复了皮肤不显示的问题。" />
         <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
                    Text="三千世界的发展离不开您的大力支持，在此向每一位玩家表示感谢！" />
         <TextBlock Margin="0,0,0,4"
